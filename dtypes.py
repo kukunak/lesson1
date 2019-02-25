@@ -9,7 +9,7 @@ c = a + ' ' + b
 print (c) 
 d = '{} {} {}!' .format(a,b,x)
 print (d) 
-user = 'Yan'
+user = 'Yan P'
 b = 'привет {name}'.format(name = user)
 print (b) 
 h = f"привет {user}"
@@ -39,6 +39,7 @@ a = "learn.python.ru"
 print (a.split('.')) # разбивает строку в список
 b = a.split('.')
 print (len(b))
+print (b)
 
 a = None #проверить можем с помощью is
 b = 0 
